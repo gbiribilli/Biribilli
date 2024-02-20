@@ -1,23 +1,23 @@
-let titulo = document.querySelector('h1');
-titulo.innerHTML = 'Hora do Desafio';
+alert("Welcome to my site");
 
-function verificar(){
-    console.log('O botão ')
+let nome = "Lua";
+
+let idade = 18;
+let vendas = 50;
+let Saldo = 1000;
+
+
+let mensagemDeErro = "Erro preencha todos os campos ";
+alert(mensagemDeErro);
+
+let nomee = prompt("Qual o seu nome ?")
+alert("Ola" + nomee);
+
+let idadee = prompt("Digite sua idade")
+
+if(idadee >= idade){
+    alert("Vá tirar sua habilitação")
 }
-
-function alertar(){
-    alert('Eu amo JS');
-}
-
-function promp(){
-   let cidade = prompt('Diga uma cidade do Brasil');
-   alert(`Estive em ${nomeDaCidade} e lembrei de você`);
-}
-
-function soma(){
-    ad = window.prompt("Me de um numero");
-    aicao = window.prompt('Me de outro numero');
-    total = ad + aicao;
-   
-    window.alert('O resultado é ' + total);
+else{
+    alert("aguarde mais alguns anos")
 }
