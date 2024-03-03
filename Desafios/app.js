@@ -1,23 +1,36 @@
-alert("Welcome to my site");
+/* let numero = 0;
 
-let nome = "Lua";
+while (numero < 10){
+  numero++
 
-let idade = 18;
-let vendas = 50;
-let Saldo = 1000;
+  console.log (numero)
+} */
+
+/* let numero = 10;
+
+while (numero > 0 ){
+  numero--
+  console.log(numero)
+} */
+
+/* let contagem = prompt("vamos fazer uma contagem regressiva! Insiria daonde deseja começar")
+  while (contagem > 1){
+    contagem--
+    alert(`${contagem}`)
+
+  } */
+
+  let contagem = prompt("vamos fazer uma contagem progressiva! Insiria daonde deseja começar")
+  let numero = 0;
+  while (numero < contagem){
+    numero++
+    alert(`${numero}`)
+
+  }
 
 
-let mensagemDeErro = "Erro preencha todos os campos ";
-alert(mensagemDeErro);
 
-let nomee = prompt("Qual o seu nome ?")
-alert("Ola" + nomee);
 
-let idadee = prompt("Digite sua idade")
 
-if(idadee >= idade){
-    alert("Vá tirar sua habilitação")
-}
-else{
-    alert("aguarde mais alguns anos")
-}
+
+
